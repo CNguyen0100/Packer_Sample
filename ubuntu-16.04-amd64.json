@@ -1,4 +1,12 @@
 {
+    "variables":{
+        "mirror":"",
+        "iso_checksum":"",
+        "iso_checksum_type":"",
+        "disk_size":"",
+        "headless":""
+
+    },
     "builders": [{
       "type": "qemu",
       "iso_url": "{{user `mirror`}}/16.04/ubuntu-16.04.4-server-amd64.iso",
