@@ -1,8 +1,7 @@
-Packer_ubuntu
 # Building our Vagrant Image
 Let’s create our image. Run the following command from the directory our JSON file is located.
 ```cmd
-    packer build ubuntu1804.json
+packer build ubuntu1804.json
 ```
 Adding Our New Box to Vagrant
 
